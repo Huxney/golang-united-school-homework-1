@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestSolution(t *testing.T) {
+func TestGetMessage(t *testing.T) {
 	if solution.GetMessage() != emoji.Sprint("Hello :world_map:!") {
 		t.Errorf("Wrong String")
 	}
